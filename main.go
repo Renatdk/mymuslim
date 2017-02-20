@@ -1,9 +1,9 @@
 package main
 
 import (
-	_"log"
+	"log"
 	"net/http"
-	_"os"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
