@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+@font-face {
+  font-family: 'ios7-icon';
+  src: url('../fonts/ios7-icon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  display: inline-block;                
+  font-family: 'ios7-icon';             
+  -webkit-text-rendering: geometricPrecision;
+  -moz-text-rendering: geometricPrecision;
+  -ms-text-rendering: geometricPrecision;
+  -o-text-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;   
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body{
+	font-family:'Open Sans', sans-serif;
+	-webkit-transition: all  1s ease-out 0.5s;
+     -moz-transition: all 1s ease-out 0.5s;
+     -o-transition: all 1s ease-out 0.5s;
+     transition: all 1s ease-out 0.5s;
+}
+
+/* Шапка */
+
+.fixed-top-menu{
+	height: 26px;
+	width: 100%;
+	
+	position: fixed;
+	top:0;
+	background-color:white;
+	border-bottom: 1px solid #ccc;
+	z-index: 1000;
+}
+
+.wrap{
+	max-width:960px;
+	margin:0 auto;
+	padding:0 5px;
+}
+.fixed-top-menu .logo{
+	margin-top:-5px;
+	float: left;
+	font-family: 'Pacifico', cursive;
+	
+}
+
+.fixed-top-menu .logo a{
+	text-decoration:none;
+	color:#333;
+	font-size: 1.2em;
+	-webkit-transition: all  0.5s ease-out 0.5s;
+     	-moz-transition: all 0.5s ease-out 0.5s;
+     	-o-transition: all 0.5s ease-out 0.5s;
+     	transition: all 0.5s ease-out 0.5s;
+
+}
+
+.fixed-top-menu .logo a:hover{
+	color:rgb(85,98,112);
+
+}
+
+.fixed-top-menu ul.menu{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	float:right;
+}
+
+.fixed-top-menu ul.menu li{
+	float:left;
+	padding: 0 5px;
+	margin-top:2px;	
+}
+
+.fixed-top-menu ul.menu li a{
+	text-decoration:none;
+	color: #ccc;
+	-webkit-transition: all  0.5s ease-out 0.5s;
+     	-moz-transition: all 0.5s ease-out 0.5s;
+     	-o-transition: all 0.5s ease-out 0.5s;
+     	transition: all 0.5s ease-out 0.5s;
+
+
+}
+
+.fixed-top-menu ul.menu li a:hover{
+	color: #333;
+}
+
+/*button-box*/
+.button-box{
+	text-align:center;
+	padding:20px;
+	margin:5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	text-decoration:none;
+	-webkit-transition: all  1s ease-out 0.5s;
+     	-moz-transition: all 1s ease-out 0.5s;
+     	-o-transition: all 1s ease-out 0.5s;
+     	transition: all 1s ease-out 0.5s;
+}
+
+.button-box:hover{
+	color:white;
+	box-shadow:none;
+}
+
+.button-box.red{
+	background-color:#FF6B6B;
+	color:white;
+}
+
+.button-box.dark{
+	background-color:rgb(85,98,112);
+	color:white;
+}
+

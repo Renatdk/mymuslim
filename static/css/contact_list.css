@@ -1,0 +1,11 @@
+.contact_list{
+	margin-top:65px;
+}
+
+.list_item{
+	border:1px solid #ccc;
+}
+
+.list_item.red{
+	border-left:10px solid #FF6B6B;
+}
