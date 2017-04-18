@@ -4,8 +4,45 @@
 
 .list_item{
 	border:1px solid #ccc;
+	font-size:0.8em;
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	-webkit-transition: all  0.3s ease-out 0.3s;
+ 	-moz-transition: all 0.3s ease-out 0.3s;
+ 	-o-transition: all 0.3s ease-out 0.3s;
+ 	transition: all 0.3s ease-out 0.3s;
+}
+
+.list_item:hover{
+	box-shadow: 0 0px 3px rgba(0,0,0,0.5); 
 }
 
 .list_item.red{
 	border-left:10px solid #FF6B6B;
+}
+
+.list_item.dark{
+	border-left:10px solid rgb(85,98,112);
+}
+
+.list_item .top{
+	overflow: hidden;
+}
+
+
+.list_item .top .left{
+	float: left;
+	width: 70%;
+	padding: 3px;
+}
+
+.list_item .top .right{
+	text-align: right;
+	padding: 3px;
+}
+
+.list_item .bottom{
+	padding: 3px;
+	color: #777;
 }
